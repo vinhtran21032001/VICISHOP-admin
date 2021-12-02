@@ -1,0 +1,131 @@
+.user-container {
+    padding :20px;
+}
+.user-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.user-top-title {
+    font-size: 30px;
+}
+.user-top-button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: teal;
+    color : white;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+.user-bottom {
+    display: flex;
+    gap : 20px;
+}
+.user-show-info {
+    flex :1;
+    padding :20px;
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.15); 
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.15);
+}
+.user-update {
+    flex:2;
+    padding :20px;
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.15); 
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.15);
+}
+.user-info {
+    display: flex;
+}
+.user-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.user-desc {
+    display: flex;
+    flex-direction: column;
+}
+.user-fullname {
+    font-weight: 600;
+}
+.user-title {
+    font-weight: 400;
+    color: gray;
+}
+.user-detail {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.user-detail-title {
+    color :gray;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.user-detail-desc {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.user-detail-icon {
+    font-size: 20px !important;
+    margin-right: 10px;
+}
+
+/* // USER UPDATE */
+.user-update-container {
+    display:  flex;
+
+}
+.user-update-form {
+    flex : 2;
+}
+.user-update-title {
+    font-size: 24px;
+    display: flex;
+}
+.user-field-group {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.user-field-group>label{
+
+}
+.user-field-group>input{
+    border:none;
+    border-bottom: 1px solid gray;
+    padding : 10px 0px;
+}
+
+.user-update-right {
+    flex : 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.user-update-content {
+    display: flex;
+    align-items: center;
+}
+.user-update-avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: 30px;
+}
+.user-update-upload>label {
+    cursor: pointer;
+}
+.user-update-button {
+    width: 200px;
+    height: 30px;
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+}

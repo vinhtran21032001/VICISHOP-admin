@@ -1,0 +1,37 @@
+.userlist-container {
+    height: 80vh;
+}
+.userlist-title {
+    font-size: 30px;
+    margin: 0 20px 20px;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+}
+.user-avartar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.userlist-action {
+    display: flex;
+    align-items: center;
+}
+.uselist-button{
+    padding : 7px 20px;
+    background-color :teal;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 16px;
+    border : none;
+}
+.userlist-icon-delete {
+    color :red !important;
+    cursor: pointer;
+    font-size: 30px !important;
+}

@@ -1,0 +1,8 @@
+.chart-container {
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.23); 
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.23);
+    padding:20px;
+}
+.chart-title {
+    margin-bottom: 20px;
+}

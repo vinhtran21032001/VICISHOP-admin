@@ -1,0 +1,48 @@
+.newuser-container {
+    padding :20px;
+}
+.newuser-title {
+    font-size: 30px;
+}
+
+.newuser-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+.newuser-group-field {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.newuser-group-field >input{
+    height: 30px;
+    padding:5px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin-top: 10px;
+}
+.newuser-group-radio {
+    margin-top: 10px;
+}
+.newuser-group-radio>label {
+    margin:0  10px;
+}
+.newuser-group-field>select {
+    margin-top: 10px;
+    height: 40px;
+}
+.newuser-button {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    color: white;
+    background-color: darkblue;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.newproduct-img {
+    width: 100%;
+}

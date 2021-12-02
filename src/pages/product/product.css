@@ -1,0 +1,129 @@
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.heading button {
+    padding : 8px 25px;
+    background-color: teal;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.product-detail {
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+}
+.product-detail-top {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+.product-detail-topleft{
+    flex : 5;
+}
+.product-detail-bottom {
+    padding :20px;
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.15); 
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.15);
+}
+.product-detail-topright {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.15); 
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.15);
+    padding :20px;
+    justify-content: space-around;
+}
+.product-detail-title {
+    display: flex;
+    align-items: center;
+}
+.product-detail-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.product-detail-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+.product-detail-item-title {
+    width: 100px;
+}
+.product-detail-info {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.product-detail-item {
+    display: flex;
+    justify-content: space-between;
+}
+.product-detail-item-value {
+    font-weight: 300;
+}
+.product-detail-bottom {
+    margin-top :50px;
+}
+.product-detail-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+.product-detail-form {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+.product-detail-group-field {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    margin-top: 10px;
+}
+.product-detail-group-field>label {
+    margin-bottom: 10px;    
+}
+.product-detail-group-field>input {
+    height: 40px;
+    border:none;
+    border-bottom : 1px solid gray;
+}
+.product-detail-group-field>select {
+    height: 40px;
+    display:block;
+}
+
+.product-detail-right {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.product-detail-upload {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.product-detail-file-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.product-detail-file>input {
+    display: none;
+}
+.product-detail-button {
+    height: 30px;
+    background-color: darkblue;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}

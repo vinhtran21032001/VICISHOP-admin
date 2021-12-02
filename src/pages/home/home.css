@@ -1,0 +1,9 @@
+.container {
+    margin-top: 10px;
+    padding:0 30px;
+}
+.home-widgets {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}

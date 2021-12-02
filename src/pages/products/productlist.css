@@ -1,0 +1,37 @@
+.productlist-container {
+    height: 80vh;
+}
+.productlist-title {
+    font-size: 30px;
+    margin: 0 20px 20px;
+}
+.product-info {
+    display: flex;
+    align-items: center;
+}
+.product-avartar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.productlist-action {
+    display: flex;
+    align-items: center;
+}
+.productlist-button{
+    padding : 7px 20px;
+    background-color :teal;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 16px;
+    border : none;
+}
+.productlist-icon-delete {
+    color :red !important;
+    cursor: pointer;
+    font-size: 30px !important;
+}

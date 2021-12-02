@@ -1,0 +1,41 @@
+.widget-transaction {
+    flex:5;
+    -webkit-box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.23); 
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.23);
+    padding:20px;
+}
+
+.widget-transaction-table {
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+}
+.widget-transaction-user-info {
+    margin-top: 20px;
+}
+.widget-transaction-user {
+    display: flex;
+    align-items: center;
+}
+.widget-transaction-user-avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.widget-transaction-button {
+    padding : 7px 10px;
+    border-radius: 30px;
+    border: none;
+    width: 80px;
+    background-color: rgb(242, 241, 255);
+    color: rgb(44, 39, 87);
+}
+.widget-transaction-button.pending {
+    background-color: rgb(241, 255, 241);
+    color: rgb(39, 87, 39);
+}
+.widget-transaction-button.delined {
+    background-color : rgb(255, 240, 240);
+    color: rgb(141, 22, 22);
+}
